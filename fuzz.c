@@ -30,6 +30,10 @@
 /*                fuzz.c -- data obfuscation implmentation                 */
 /* Ver. 1.00                    24SEP2024                   CrateOfThunder */
 /* ----------------------------------------------------------------------- */
+
+/*
+ * gcc -x c -ansi -Wall -Wextra -Wpedantic -Werror -Os -s
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
